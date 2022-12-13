@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <title>Help & Support|NYC READER'S Public Library</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/help.css">
+    
+
+
+
+</head>
+
+<body>
+  <header>
+    
+    <div class="bar" id="rec1" >
+        <img class="logo" src="images/logo.png" width="200" height="205" align="left">
+        <h3 id="name" align="left" style="color:white"> NEW YORK CITY <br> READER'S</h3>
+        <form class="search1">
+            <input type="text" placeholder="Search for content.." >
+            <button type="submit">GO</button>
+        </form>
+        <div id="name2" align="left" style="color:white">Public<br>Library</div>
+
+    </div>
+
+	<!-- Load an icon library -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    <!-- References: W3 Scools -->
+
+    <div class="menu2">
+            <a href="myaccount.php"><i class="fa fa-fw fa-user"></i> My Account </a>    <!-- References: W3 Scools -->
+            <a href="register.php"> Membership </a>
+            <a href="login.php"> Log in</a>   
+    </div>
+    
+    <center>
+        <div class="menu">
+            <a href="index.html"><i class="fa fa-fw fa-home"></i> Home </a>     <!-- References: W3 Scools -->
+            <a href="categories.html"> Categories </a>
+            <a href="#"> Help & Support</a>
+            <a href="about.html"> About Us</a>
+            <a href="vacancies.html"> Vacancies</a>
+            <a href="newsandevents.html"> News & Events</a>
+            <a href="resc.html"> Resources</a>
+            <a href="feedback.html"> Feedback</a>
+        </div>
+       
+ 
+
+  </header>
+
+    <br><br>
+
+    <center><h2 style ="color: rgb(226, 218, 218); text-shadow: 2px 2px rgb(61, 52, 60);"><b><u>ASK US</u> - We are here to help you with any <br>problem regarding any concern or question related to our library.</b><h2></h2></center>
+    &ensp; &ensp;
+    <div class="container">
+      
+        
+      <center>
+        
+        <h2 style="color: rgb(22, 20, 20); text-shadow: 2px 2px rgb(216, 164, 216);"><u>Email</u></h2>
+        <form action="help.php" method = "POST">
+          <div class="row">
+            <div class="roww1">
+              <label for="fName"><b>First Name</b></label>
+            </div>
+            <div class="roww2">
+              <input type="text" id="firstname" name="firstname" placeholder="Your first name..">
+            </div>
+          </div>
+    
+
+    
+        <div class="roww1">
+            <div class="roww1">
+              <label for="lname"><b>Last Name</b></label>
+            </div>
+            <div class="roww2">
+              <input type="text" id="lastname" name="lastname" placeholder="Your last name..">
+            </div>
+          </div>
+      
+
+    
+        <div class="roww">
+          <div class="roww1">
+          <label for="email"><b>Email Address*</b></label>
+          </div>
+          <div class="roww2">
+            <input type="text" id="email" name="email" placeholder="Your email..">
+          </div>
+        </div>
+    
+
+    
+          <div class="row">
+            <div class="roww1">
+              <label for="m_ID"><b>Membership ID (If registeterd)</b></label>
+            </div>
+            <div class="roww2">
+              <input type="text" id="m_ID" name="m_ID" placeholder="ID..">
+            </div>
+          </div>
+           
+          
+       
+          <div class="row">
+            <div class="roww1">
+              <label for="email"><b>Your Question / Commment</b></label>
+            </div>
+            <div class="roww2">
+              <textarea id="question" name="question" placeholder="Type your inquiry here.." style="height:200px"></textarea>
+            </div>
+          </div>
+     
+          
+      
+       </center>  
+        <div class="checkbox">
+          <input type="checkbox" id="checkBox" name="confirmation" value="confirm">
+          <label for="confirmation">Receive an email confirmation of your question. Please check your spam/junk email folder if you do not receive a confirmation</label>
+        </div>
+   
+        <div class="row">
+          <input type="submit" id = "submitq" name = "submitq" value="Submit Your Question">
+        </div>
+      </form>
+
+    </div>
+    
+
+
+    <footer>
+
+        <div class="footer" id="foot1">
+            <img class="logo2" src="images/logo.png"> <br><br><br><br><br>
+            <form class="submit">
+                <input type="text" placeholder="Enter your Email here..">
+                <button type="submit">Submit</button>
+            </form>
+            <div id="fname" align="left" style="color:white"> NEW YORK CITY <br> READER'S </div>
+            <div id="fname2" align="left"style="color:white" >Public<br>Library </div>
+            <a href="#" class="fa fa-facebook"></a>                                                   <!-- References: W3 Scools -->
+            <a href="#" class="fa fa-twitter"></a>                                                    <!-- References: W3 Scools -->
+            <a href="#" class="fa fa-instagram"></a><br><br><br>                                      <!-- References: W3 Scools -->
+            <h5 align="right" href="#" style="color:white"><u>Terms of use</u> &#160 <u>Privacy and policy</u></h5>
+            <h5 id="copyright" align="left" style="color:white"><i class="fa fa-fw fa-copyright"></i>2021 New York Readers Library All Rights Reserved</h5>         
+        </div>
+    
+      </footer>
+      
+      <script src="javas/script.js"></script>
+    
+    </body>
+    </html>
